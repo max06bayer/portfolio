@@ -2,7 +2,7 @@ let cancelScroll: (() => void) | undefined;
 
 export function scrollToSocials(event: MouseEvent) {
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-  const mobile = window.matchMedia('(max-width: 900px)').matches;
+  const mobile = window.matchMedia('(max-width: 1080px)').matches;
   const target = document.getElementById(mobile ? 'mobile-socials' : 'socials');
   if (!target) return;
   event.preventDefault();

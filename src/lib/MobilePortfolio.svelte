@@ -59,7 +59,7 @@
 
 <style>
   .mobile { display: none; }
-  @media (max-width: 900px) {
+  @media (max-width: 1080px) {
     .mobile { display: block; }
     .artwork { display: block; width: 100%; height: auto; }
     .intro { margin: 24px 24px 48px; font-size: 18px; white-space: pre-wrap; scroll-margin-top: 48px; }
@@ -78,7 +78,7 @@
     footer nav { padding: 12px 24px 24px; }
     footer p { padding: 0 24px 32px; margin: 0; color: #4d4d4d; font-size: 15px; }
   }
-  @media (min-width: 600px) and (max-width: 900px) {
+  @media (min-width: 600px) and (max-width: 1080px) {
     .intro, .description { max-width: 660px; }
     .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
     figure:first-child { grid-column: 1 / -1; }
