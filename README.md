@@ -2,6 +2,12 @@
 
 SvelteKit 2 / Svelte 5, built as a static website for GitHub Pages.
 
+Live website: https://max06bayer.github.io/portfolio/
+
+Repository: https://github.com/max06bayer/portfolio
+
+Push changes to `main` to deploy updates automatically.
+
 ## Local development
 
 ```sh
