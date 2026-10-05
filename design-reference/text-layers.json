@@ -36,7 +36,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "The Drone has a wingspan of 1.40m and can carry 12kg payload. It was designed as first responder in Alpine terrain. It can launch and land vertically thanks to its tilting rotor mechanism. It is equipped with a 1080p digital camera, a thermal camera and 10x optical zoom over 30km range. The drone was tested using a 3 Billion Cell CFD Simulation on AMD MI300X GPU Servers.",
+        "text": "The drone has a 1.40 m wingspan and can carry a 12 kg payload. Designed as a first responder in alpine terrain, it takes off and lands vertically using tilting rotors. It has a 1080p digital camera, a thermal camera and 10× optical zoom with a 30 km range. It was tested using a three-billion-cell CFD simulation on AMD MI300X GPU servers.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -108,7 +108,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "This 2.5m long experimental UAV has a prototype already built and testing. It features 3 motors producing 21kg of thrust and is designed to take of and land vertically with its tilt mechanism. It already took off and landed for a short distance but the battery system is currently beeing redesigned before another flight can take place. It features a 350Wh Li-ion custom made battery pack and weighs 7.5kg in the current unfinished configuration. ",
+        "text": "This 2.5 m experimental UAV has a working prototype undergoing testing. Three motors produce 21 kg of thrust, and its tilting mechanism enables vertical take-off and landing. It has completed a short flight, but the battery system is being redesigned before further testing. It uses a custom 350 Wh lithium-ion battery pack and weighs 7.5 kg in its current unfinished configuration.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -132,7 +132,7 @@
     "spacing": -1.3,
     "segments": [
       {
-        "text": "Februrary 2026",
+        "text": "February 2026",
         "color": {
           "r": 0.379150390625,
           "g": 0.379150390625,
@@ -180,7 +180,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "Docuflex is an open source PDF Editor. It features a Web Editor on ",
+        "text": "Docuflex is an open-source PDF editor. It has a web editor at ",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -200,7 +200,7 @@
         "link": null
       },
       {
-        "text": " and a desktop version for Mac, Widows and Linux. With a modern design it has all the features you would expect from a capable PDF Editor, including deep text editing, watermarking, adding text, signing, protecting, censoring, translating, converting and much more. You can get it from the website or the public GitHub repo ",
+        "text": " and a desktop version for macOS, Windows and Linux. Its modern interface offers deep text editing, watermarking, text insertion, signing, password protection, redaction, translation, conversion and more. You can get it from the website or the public GitHub repository ",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -292,7 +292,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "Delphi is a project management platform focussed on efficiency and working together with agents. It adapts fully to your needs and treats agents the same as coworkers. You can connect it to Claude Code, Codex, Github Copilot or can deisgn your own custom agent in the App for specific tasks from a selection of thousands of LLMs. The agents can work together on tasks and take part in the chats and channels just like normal people. It is one work platform you can customize so you manage your entire stack in one place. This is the successor to BizzConnect a PM system I build earlier.",
+        "text": "Delphi is a project management platform focused on efficiency and collaboration with agents. It adapts to your needs and treats agents as coworkers. Connect Claude Code, Codex or GitHub Copilot, or design custom agents for specific tasks using thousands of available LLMs. Agents can collaborate on tasks and participate in chats and channels alongside people. It is one customisable platform for managing your entire stack, and the successor to BizzConnect, a project management system I built earlier.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -364,7 +364,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "Arc is a modern design tool focussed on simplicity and speed. It incorporates agents that can design ads, posters, UI, interfaces for you. ",
+        "text": "Arc is a modern design tool focused on simplicity and speed. Its agents can design ads, posters and user interfaces for you.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -436,7 +436,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "BizzConnect was a time / project management platform focused on the smart automatic Calendar. It could reschedule automatically to make space for other events, dates and projects. It was a working online platform under bizzconnect.org where you could connect your entire team. Projects, Chats, Calls, Smart Calendars that could connect to Google Calendar and Outlook Calendar and would synch automatically and auto schedule tasks that were assigned to you. It also had a collaborative note editor, a company wide knowledge base and AI assistant integration. The AI was able to do any action you could too on its own too and you were able to choose from 25 LLM models. BizzConnect is shut down since September 2026. ",
+        "text": "BizzConnect was a time and project management platform built around a smart calendar. It automatically rescheduled events to make room for new dates and projects. Hosted at bizzconnect.org, it connected teams through projects, chats, calls and calendars that synced with Google Calendar and Outlook Calendar and automatically scheduled assigned tasks. It also included a collaborative note editor, a company-wide knowledge base and an AI assistant that could perform the same actions as users, with a choice of 25 LLMs. BizzConnect shut down in September 2026.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -532,7 +532,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "Bob-E Sim uses Generative AI to create huge realistic physical outdoor and indoor environments for training a robot. The robot AI can autonomously navigate to different locations like in real life. Im developing the robot brain at the same time. THe goal is for the robot once its built to be walking anywhere autonomously, understand language and be able to follow instructions in the real world. ",
+        "text": "Bob-E Sim uses generative AI to create large, realistic indoor and outdoor environments for robot training. The robot’s AI can navigate autonomously, as it would in the real world. I’m also developing its control system. Once built, the goal is for the robot to walk autonomously, understand language and follow instructions in the real world.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -604,7 +604,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "Elysium was a 3D Survival Game with focus on the procedural Environment. The challenge was generating millions of vertices on the GPU efficiently with compute shaders for an infinite world. Even with the millions of grass blades this managed to run at 500FPS",
+        "text": "Elysium was a 3D survival game focused on procedural environments. The challenge was efficiently generating millions of vertices on the GPU using compute shaders to create an infinite world. Even with millions of grass blades, it ran at 500 FPS.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -782,7 +782,7 @@
     "spacing": -0.9,
     "segments": [
       {
-        "text": "I\u2019m a Student from Germany interested in ",
+        "text": "I’m a student from Germany interested in ",
         "color": {
           "r": 0.33469802141189575,
           "g": 0.33469802141189575,
@@ -792,7 +792,7 @@
         "link": null
       },
       {
-        "text": "Robotics, Machine Learning, Software Design, Drones, Autonomous Systems, Aircraft",
+        "text": "robotics, machine learning, software design, drones, autonomous systems, aircraft",
         "color": {
           "r": 0.6989558339118958,
           "g": 0.6989558339118958,
@@ -812,7 +812,7 @@
         "link": null
       },
       {
-        "text": "Space systems",
+        "text": "space systems",
         "color": {
           "r": 0.6954063773155212,
           "g": 0.6954063773155212,
@@ -822,7 +822,7 @@
         "link": null
       },
       {
-        "text": ". Currently im studying ",
+        "text": ". I’m currently studying ",
         "color": {
           "r": 0.33469802141189575,
           "g": 0.33469802141189575,
@@ -832,7 +832,7 @@
         "link": null
       },
       {
-        "text": "Aerospace Engineering",
+        "text": "aerospace engineering",
         "color": {
           "r": 0.6680626273155212,
           "g": 0.6680626273155212,
@@ -842,7 +842,7 @@
         "link": null
       },
       {
-        "text": " at Technische Hochschule Ingolstadt with a dual study at Airbus Defense and Space. I love coding Javascript, Sveltekit, Pyhton, Designing and Engeneering. If you want, you can check out my ",
+        "text": " at Technische Hochschule Ingolstadt through a dual study programme with Airbus Defence and Space. I love coding in JavaScript, SvelteKit and Python, as well as designing and engineering. You can check out my ",
         "color": {
           "r": 0.33469802141189575,
           "g": 0.33469802141189575,
@@ -852,7 +852,7 @@
         "link": null
       },
       {
-        "text": "Dribble",
+        "text": "Dribbble",
         "color": {
           "r": 0.7145432829856873,
           "g": 0.7145432829856873,
@@ -902,7 +902,7 @@
         "link": null
       },
       {
-        "text": " or my current Open Source project Docuflex! \u2028\u2028",
+        "text": " or my current open-source project Docuflex!   ",
         "color": {
           "r": 0.33469802141189575,
           "g": 0.33469802141189575,
@@ -912,7 +912,7 @@
         "link": null
       },
       {
-        "text": "Here are some of my Projects",
+        "text": "Here are some of my projects",
         "color": {
           "r": 0.7398399710655212,
           "g": 0.7398399710655212,
@@ -946,7 +946,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "\u00a9 2026 Maximilian Bayer",
+        "text": "© 2026 Maximilian Bayer",
         "color": {
           "r": 0.3,
           "g": 0.3,

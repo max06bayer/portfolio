@@ -48,7 +48,7 @@ The reference is Figma file `fzo4ZS7C46N8I2ZRP6q0Nd`, node `9:1688`, measuring 1
 - Edit measured layout and text in `src/lib/design/`. Components live in `src/lib/DesignLayer.svelte` and `src/lib/DesignText.svelte`.
 - `design-reference/` holds the captured source, measurements, and original assets for comparison. `scripts/import-design.mjs` can regenerate the manifests.
 
-The original design's text spelling is preserved, with the requested linked grey Docuflex mention added to the introduction. The narrow-screen layout preserves the composition by scaling the same canvas; a separately designed mobile layout is not included.
+The copy has been proofread, including official technology and company spellings. Above 900 CSS pixels, the measured Figma composition is preserved. At 900 pixels and below, the same project data and assets are rearranged into a readable mobile layout with 17–18 px body text, stacked galleries, and accessible footer navigation.
 
 ## Privacy and legal pages
 

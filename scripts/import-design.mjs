@@ -78,7 +78,7 @@ intro.segments = intro.segments.flatMap(s => {
   const [before, after] = s.text.split('Docuflex');
   return [
     { ...s, text: before },
-    { ...s, text: 'Docuflex', color: intro.segments.find(s => s.text === 'Dribble').color, underline: true },
+    { ...s, text: 'Docuflex', color: intro.segments.find(s => s.text === 'Dribbble').color, underline: true },
     { ...s, text: after }
   ];
 });

@@ -1,5 +1,6 @@
 <script lang="ts">
   import { base } from '$app/paths';
+  import MobilePortfolio from '$lib/MobilePortfolio.svelte';
   import DesignLayer from '$lib/DesignLayer.svelte';
   import DesignText from '$lib/DesignText.svelte';
   import layers from '$lib/design/layers.json';
@@ -13,8 +14,8 @@
 </svelte:head>
 
 <main class="portfolio" aria-label="Maximilian Bayer’s portfolio">
+  <h1 class="sr-only">Maximilian Bayer</h1>
   <div class="canvas">
-    <h1 class="sr-only">Maximilian Bayer</h1>
     <img class="hero" src={`${base}/figma/hero-artwork.png`} alt="" width="1920" height="1088" fetchpriority="high" />
     {#each layers as layer (layer.id)}
       <DesignLayer {layer} />
@@ -24,6 +25,7 @@
       <DesignText {text} />
     {/each}
   </div>
+  <MobilePortfolio />
 </main>
 
 <style>
@@ -32,4 +34,8 @@
   .hero { display: block; position: absolute; left: 0; top: 0; width: 100%; height: calc(1088 * var(--unit)); }
   .footer-artwork { display: block; position: absolute; left: 0; top: calc(12624 * var(--unit)); width: 100%; height: calc(766 * var(--unit)); }
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+  @media (max-width: 900px) {
+    .portfolio { padding-top: 24px; }
+    .canvas { display: none; }
+  }
 </style>

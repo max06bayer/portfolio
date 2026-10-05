@@ -14,7 +14,7 @@ export const links = {
 
 export function textLink(text: string): string {
   return ({
-    Dribble: links.dribbble,
+    Dribbble: links.dribbble,
     GitHub: links.github,
     LinkedIn: links.linkedin,
     'docuflex.eu': links.docuflex,
