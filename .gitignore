@@ -1,0 +1,10 @@
+node_modules/
+.svelte-kit/
+build/
+.DS_Store
+design-reference/*.png
+design-reference/*-report.json
+design-reference/*.jpg
+design-reference/original-assets/
+.env
+.env.*
