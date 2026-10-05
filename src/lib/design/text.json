@@ -220,7 +220,7 @@
     "spacing": -0.78,
     "segments": [
       {
-        "text": "Bob-E Sim uses generative AI to create large, realistic indoor and outdoor environments for robot training. The robot’s AI can navigate autonomously, as it would in the real world. I’m also developing its control system. Once built, the goal is for the robot to walk autonomously, understand language and follow instructions in the real world.",
+        "text": "Bob-E Sim uses generative AI to create large, realistic indoor and outdoor environments for robot training. I built a pipeline where the robot can autonomously navigate a Unity based city environment that was created by my own system to virtual destinations in the scene such as the supermarket or apartment. The robot’s AI can navigate autonomously, as it would in the real world. I’m also developing its control system. Once built, the goal is for the robot to walk autonomously, understand language and follow instructions in the real world.",
         "color": {
           "r": 0.5397010445594788,
           "g": 0.5397010445594788,
@@ -234,7 +234,7 @@
   {
     "id": "9:2107",
     "x": 1400,
-    "y": 2113,
+    "y": 2345,
     "w": 396,
     "h": 64,
     "align": "LEFT",
