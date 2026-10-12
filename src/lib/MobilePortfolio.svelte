@@ -5,19 +5,10 @@
   import layers from './design/layers.json';
   import { links } from './links';
   import { scrollToSocials } from './scroll';
+  import { projects } from './projects';
 
   const text = (id: string) => texts.find(t => t.id === id)!;
   const image = (id: string) => layers.find(l => l.id === id)!;
-  const projects = [
-    { title: '9:2106', body: '9:2108', date: '9:2107', images: ['9:2061', '9:2062', '12:2239'] },
-    { title: '9:2064', body: '9:2065', date: '9:2066', images: ['9:2067', '9:2063'] },
-    { title: '9:2072', body: '9:2073', date: '9:2074', images: ['9:2077'] },
-    { title: '9:2083', body: '9:2084', date: '9:2085', images: ['9:2087', '9:2088', '9:2086'] },
-    { title: '9:2068', body: '9:2069', date: '9:2070', images: ['9:2089', '9:2093', '9:2092', '9:2091', '9:2090'] },
-    { title: '9:2078', body: '9:2079', date: '9:2080', images: ['9:2094', '9:2095', '9:2098', '9:2097', '9:2096'] },
-    { title: '9:2113', body: '9:2114', date: '9:2115', images: ['10:2126', '10:2129', '10:2128', '10:2132', '10:2131', '10:2130', '11:2133'] },
-    { title: '11:2137', body: '11:2139', date: '11:2138', images: ['11:2141', '11:2143', '12:2144', '11:2142'] }
-  ];
 </script>
 
 <div class="mobile">
@@ -28,7 +19,7 @@
   {#each projects as project}
     {@const title = text(project.title)}
     {@const name = title.segments.map(s => s.text).join('')}
-    <section aria-label={name}>
+    <section aria-label={name} data-project={project.slug}>
       <div class="description">
         <h2><DesignContent segments={title.segments} /></h2>
         <p><DesignContent segments={text(project.body).segments} /></p>

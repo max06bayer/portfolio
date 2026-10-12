@@ -1,6 +1,11 @@
 <script lang="ts">
   import { base } from '$app/paths';
+  import { afterNavigate } from '$app/navigation';
+  import { onMount } from 'svelte';
+  import { startAnalytics, trackPageView } from '$lib/analytics';
   let { children } = $props();
+  onMount(startAnalytics);
+  afterNavigate(() => trackPageView());
 </script>
 <svelte:head>
   <link rel="preload" href={`${base}/fonts/Geist-Variable.ttf`} as="font" type="font/ttf" crossorigin="anonymous" />

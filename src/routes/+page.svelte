@@ -5,6 +5,10 @@
   import DesignText from '$lib/DesignText.svelte';
   import layers from '$lib/design/layers.json';
   import texts from '$lib/design/text.json';
+  import { projects } from '$lib/projects';
+  import { trackProjects } from '$lib/analytics';
+  import { onMount } from 'svelte';
+  onMount(trackProjects);
 </script>
 
 <svelte:head>
@@ -24,6 +28,9 @@
     {#each texts as text (text.id)}
       <DesignText {text} />
     {/each}
+    {#each projects as project (project.slug)}
+      <div class="project-band" data-project={project.slug} style={`top:calc(${project.top} * var(--unit));height:calc(${project.bottom - project.top} * var(--unit));`} aria-hidden="true"></div>
+    {/each}
   </div>
   <MobilePortfolio />
 </main>
@@ -33,6 +40,7 @@
   .canvas { --unit: calc(100cqw / 1920); position: relative; width: 100%; height: calc(13390 * var(--unit)); overflow: clip; isolation: isolate; }
   .hero { display: block; position: absolute; left: 0; top: 0; width: 100%; height: calc(1088 * var(--unit)); }
   .footer-artwork { display: block; position: absolute; left: 0; top: calc(12624 * var(--unit)); width: 100%; height: calc(766 * var(--unit)); }
+  .project-band { position: absolute; left: 0; width: 100%; pointer-events: none; }
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
   @media (max-width: 1080px) {
     .portfolio { padding-top: 24px; }
